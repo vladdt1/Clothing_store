@@ -4,7 +4,8 @@
 
 ![image](https://user-images.githubusercontent.com/100470279/189705075-fc9aa36b-8902-4ad2-bc24-01193bc72e3f.png)
 ![image](https://user-images.githubusercontent.com/100470279/189705619-365af780-6db5-4707-9e1f-29dc7a0c5f80.png)
-![image](https://user-images.githubusercontent.com/100470279/189706388-53dbb3bd-0bf1-4143-b255-d15aa0c2dda7.png)
+![image](https://user-images.githubusercontent.com/100470279/189726474-61f993c7-b240-4d76-8d50-cece9f997df4.png)
+
 
 This site is an online clothing store. 
 It is written in ReactJS
