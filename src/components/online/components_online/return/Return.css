@@ -1,0 +1,13 @@
+.return {
+    margin-top: 25px;
+}
+
+.return_name {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 35px;
+    text-align: left;
+
+    color: black;
+}

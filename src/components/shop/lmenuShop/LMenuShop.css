@@ -1,0 +1,87 @@
+.active-link {
+    color: black;
+    font-size: 20px;
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.l_menu_shop {
+    position: fixed;
+    grid-template-areas:
+    "lo"
+    "fil"
+    "shop_menu";
+    grid-auto-rows: auto auto auto;
+}
+
+.l_menu_shop_logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    grid-template-areas:
+    "m l";
+    grid-template-columns: 20% 80%;
+    grid-area: lo;
+}
+
+.l_menu_shop_logo_menu_logo {
+
+    font-family: 'Megrim';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    margin-left: 20px;
+    color: black;
+
+    grid-area: l;
+}
+
+.l_menu_shop_logo_menu {
+    width: 30px;
+    height: 30px;
+    background: url("min_menu.svg");
+    border: none;
+    cursor: pointer;
+
+    grid-area: m;
+}
+
+.l_menu_shop_fil {
+    margin-left: 40px;
+    margin-top: 60px;
+    grid-area: fil;
+}
+
+.l_menu_shop_fil_button {
+    width: 130px;
+    height: 39px;
+    background: #000000;
+    border: 1px solid #000000;
+}
+
+.l_menu_shop_fil_button_img {
+    margin-left: -70px;
+}
+
+.l_menu_shop_fil_button_text {
+    margin-left: 10px;
+    position: absolute;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.l_menu_shop_menu {
+    margin-left: 40px;
+    margin-top: 50px;
+    grid-area: shop_menu;
+}
+
+

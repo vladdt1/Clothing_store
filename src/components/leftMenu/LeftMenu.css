@@ -1,0 +1,57 @@
+.logo_t {
+    position: fixed;
+    left: 10px;
+    top: 2px;
+
+    font-family: 'Megrim';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 85px;
+
+    color: rgba(216, 216, 216, 0.6);
+}
+
+.map {
+    position: fixed;
+    width: 85px;
+    height: 20px;
+    left: 17px;
+    top: 660px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.address {
+    position: fixed;
+    width: 174px;
+    height: 20px;
+    left: 17px;
+    top: 694px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.min-menu {
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    left: 20px;
+    top: 90px;
+    background: url("M_menu/min_menu.svg");
+    cursor: pointer;
+    border: none;
+}
+
+

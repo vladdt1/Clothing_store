@@ -1,0 +1,165 @@
+.fir{
+    margin-left: -30%;
+}
+
+.text_fir {
+    position: absolute;
+    left: 65%;
+    top: 35%;
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-size: 180px;
+    text-align: center;
+
+    color: rgba(216, 216, 216, 0.6);
+
+    transform: rotate(90deg);
+}
+
+.sale_home_image {
+    margin-top: 69px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sale_home_image_one {
+    width: 516px;
+    height: 565px;
+}
+
+.sale_home_image_two {
+    padding: 1rem;
+    width: 516px;
+    height: 565px;
+}
+
+.text_home {
+    margin-top: 111px;
+    font-family: 'Khula', serif;
+    font-style: normal;
+}
+
+.text_home_main {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 51px;
+
+    color: #000000;
+}
+
+.text_home_contents {
+    top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.indent {
+    margin-top: 30px;
+}
+
+.subscription {
+    display: grid;
+    width: 100%;
+    height: 418px;
+    margin-top: 121px;
+
+    background: rgba(203, 203, 203, 0.2);
+}
+
+.subscription_text {
+    font-family: 'Khula', serif;
+    font-style: normal;
+    margin-top: 44px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.subscription_text_two {
+    font-family: 'Khula', serif;
+    font-style: normal;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.button {
+    text-align: center;
+    align-items: center;
+    grid-template-areas:
+    "email sub";
+    grid-template-columns: 250px 250px;
+}
+
+.button_email {
+    box-sizing: border-box;
+    width: 250px;
+    height: 65px;
+    grid-area: email;
+    background: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.29);
+}
+
+.button_email_text {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.button_sub {
+    width: 250px;
+    height: 65px;
+    grid-area: sub;
+    background: #000000;
+    border: 1px solid #000000;
+}
+.button_sub:hover {
+    background-color: #5b5c5d;
+}
+
+.button_sub:active {
+    background: #460101;
+}
+
+.button_sub_text {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    margin-left: 4rem;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.pol {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 9px;
+    text-align: center;
+    margin-top: 10px;
+
+    color: #828282;
+}
+
+.none{
+    display: none;
+}

@@ -1,0 +1,66 @@
+.shop_w_men_title {
+    margin-top: 20px;
+
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 59px;
+
+    color: #000000;
+
+    grid-area: text;
+}
+
+.shop_w_men_pro {
+    margin-top: 50px;
+    margin-left: 10px;
+    display: grid;
+
+    grid-template-areas:
+    "o t th"
+    "f fi s";
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto auto;
+}
+
+.shop_w_men_pro_one {
+    margin-left: 10px;
+    grid-area: o;
+}
+
+.shop_w_men_pro_two {
+    margin-left: 10px;
+    grid-area: t;
+}
+
+.shop_w_men_pro_three {
+    grid-area: th;
+}
+
+.shop_w_men_pro_four {
+    margin-top: 25px;
+    grid-area: f;
+}
+
+.shop_w_men_pro_five {
+    margin-top: 25px;
+    grid-area: fi;
+}
+
+.shop_w_men_pro_six {
+    margin-top: 25px;
+    grid-area: s;
+}
+
+.shop_product_img_wom_1 {
+    width: 370px;
+}
+
+.shop_product_text_wom_1 {
+    margin-left: 9em;
+    text-decoration: none;
+    color: black;
+}

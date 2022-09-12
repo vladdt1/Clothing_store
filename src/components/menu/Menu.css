@@ -1,0 +1,37 @@
+.menu {
+    position: fixed;
+    display: block;
+}
+
+.menu_imag1 {
+    padding: 1rem;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 35px;
+}
+
+.menu_imag2 {
+    padding: 1rem;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    top: 111px;
+}
+
+.menu_imag3 {
+    padding: 1rem;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 187px;
+}
+
+.menu_imag4 {
+    padding: 1rem;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 263px;
+}

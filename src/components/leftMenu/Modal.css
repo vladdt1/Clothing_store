@@ -1,0 +1,108 @@
+.M_menu {
+    position: fixed;
+    margin-top: 95px;
+    margin-left: 60px;
+    width: 650px;
+    height: 550px;
+    background-color: #eaeaea;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.M_menu.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.M_menu_content {
+    grid-template-areas:
+    "on"
+    "tw"
+    "th";
+    grid-auto-rows: 33% 35% 32%;
+}
+
+.M_menu_content_one {
+    text-align: center;
+    margin-left: 5px;
+    grid-area: on;
+}
+
+.M_menu_content_two {
+    grid-area: tw;
+    background-color: #91B7E6;
+}
+
+.M_menu_content_three {
+    text-align: center;
+    margin-left: 5px;
+    grid-area: th;
+}
+
+.M_menu_content_one_lin {
+    display: grid;
+    margin-top: 10px;
+    margin-left: auto;
+    grid-template-areas:
+    "olinon olintw olinth";
+    grid-template-columns: auto auto auto;
+}
+
+.M_menu_content_one_lin_one {
+    grid-area: olinon;
+}
+
+.M_menu_content_one_lin_two {
+    grid-area: olintw;
+}
+
+.M_menu_content_one_lin_three {
+    grid-area: olinth;
+}
+
+.M_menu_content_two_lin {
+    display: grid;
+    margin-top: 10px;
+    text-align: center;
+    grid-template-areas:
+    "tlinon tlintw tlinth tlinfo";
+    grid-template-columns: auto auto auto auto;
+}
+
+.M_menu_content_two_lin_one {
+    grid-area: tlinon;
+}
+
+.M_menu_content_two_lin_two {
+    grid-area: tlintw;
+}
+
+.M_menu_content_two_lin_three {
+    grid-area: tlinth;
+}
+
+.M_menu_content_two_lin_four {
+    grid-area: tlinfo;
+}
+
+.M_menu_content_three_Lin {
+    display: grid;
+    margin-top: 6px;
+    margin-left: auto;
+    grid-template-areas:
+    "tlinon tlintw tlinth";
+    grid-template-columns: auto auto auto;
+}
+
+.M_menu_content_three_lin_one {
+    grid-area: tlinon;
+}
+
+.M_menu_content_three_lin_two {
+    grid-area: tlintw;
+}
+
+.M_menu_content_three_lin_three {
+    grid-area: tlinth;
+}
